@@ -1,0 +1,21 @@
+# Logs
+build.log
+
+# Godot temporary files
+.import/
+export/
+*.pck
+*.exe
+
+bin/
+*.log
+*.zip
+
+# Docker
+*.tar
+*.img
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
