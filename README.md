@@ -108,7 +108,7 @@ What happens inside the Docker container:
 
 | Issue                                 | Solution                                                                 |
 |---------------------------------------|--------------------------------------------------------------------------|
-| `SCRIPT_AES256_ENCRYPTION_KEY` not set | Make sure to pass it using `-e` when running the Docker container        |
+| `SCRIPT_AES256_ENCRYPTION_KEY` not set| Make sure to pass it using `-e` when running the Docker container        |
 | Permission denied when copying output | Ensure the output folder exists and is writable by Docker                |
 | Missing template files                | Check the Docker logs or mount `/godot/build.log` to inspect errors      |
 
